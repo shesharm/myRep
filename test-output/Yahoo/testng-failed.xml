@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo]">
+  <parameter name="browser" value="FF"/>
+  <test name="Capture captcha(failed)">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="com.learning.general.Highlight">
+        <methods>
+          <include name="SetUp"/>
+          <include name="OpenBrowser"/>
+          <include name="highlight"/>
+        </methods>
+      </class> <!-- com.learning.general.Highlight -->
+    </classes>
+  </test> <!-- Capture captcha(failed) -->
+</suite> <!-- Failed suite [Yahoo] -->

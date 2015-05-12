@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Yahoo" verbose="1" allow-return-values="true">
+  <test name="Capture captcha" >
+    <parameter name="browser" value="FF" />
+    <classes>
+      		<!-- <class name="com.learning.general.GetCaptcha" />-->
+       		 <class name="com.learning.general.Highlight" />
+   	</classes>
+  </test>
+
+ 
+
+</suite>
